@@ -44,20 +44,29 @@
 .metadata/
 *.launch
 
-# STM32CubeMX generated files
-Drivers/
-Middlewares/
-Src/
-Inc/
-*.mxproject
-
 # IDE specific files
-*.ioc
-*.cproject
-*.project
+.cproject
+.project
 
 # macOS specific files
 .DS_Store
 
 # Windows specific files
 Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+
+# Keep all source files
+!*/Inc/
+!*/Src/
+!*/Core/
+!*/Drivers/
+!*/Middlewares/
+
+# You might want to keep your main configuration file
+!*.ioc
+
+# Ignore debug configuration
+*.cfg

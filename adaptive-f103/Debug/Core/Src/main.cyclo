@@ -1,0 +1,11 @@
+../Core/Src/main.c:41:9:rpmToPwm	3
+../Core/Src/main.c:107:5:main	1
+../Core/Src/main.c:166:6:SystemClock_Config	3
+../Core/Src/main.c:206:13:MX_CAN_Init	2
+../Core/Src/main.c:243:13:MX_TIM1_Init	3
+../Core/Src/main.c:293:13:MX_TIM2_Init	3
+../Core/Src/main.c:342:13:MX_TIM4_Init	9
+../Core/Src/main.c:413:13:MX_GPIO_Init	1
+../Core/Src/main.c:428:6:updateEncoderValue	1
+../Core/Src/main.c:445:6:updateMotorControl	3
+../Core/Src/main.c:483:6:Error_Handler	1
