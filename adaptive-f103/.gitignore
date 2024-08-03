@@ -1,0 +1,63 @@
+# STM32 Project .gitignore
+
+# Build results
+/build/
+/debug/
+/release/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+# STM32CubeIDE specific
+.settings/
+.metadata/
+*.launch
+
+# STM32CubeMX generated files
+Drivers/
+Middlewares/
+Src/
+Inc/
+*.mxproject
+
+# IDE specific files
+*.ioc
+*.cproject
+*.project
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
